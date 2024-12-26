@@ -23,8 +23,5 @@ public class Main {
         System.out.println(supplier2.getProductDetails());
         System.out.println(supplier3.getProductDetails());
         System.out.println();
-
-        supplier1.isOlderThan(supplier2);
-        supplier2.isOlderThan(supplier3);
     }
 }
