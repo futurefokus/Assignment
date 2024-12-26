@@ -10,9 +10,9 @@ public class Main {
         products[2] = new Product("Tablet", 103, 600.00);
 
         Inventory[] inventories = new Inventory[3];
-        inventories[0] = new Inventory("Central Warehouse", "Kazakhstan", products);
-        inventories[1] = new Inventory("East Warehouse", "Russia", products);
-        inventories[2] = new Inventory("West Warehouse", "USA", products);
+        inventories[0] = new Inventory("Pinduoduo", "Kazakhstan", products);
+        inventories[1] = new Inventory("AliExpress", "China", products);
+        inventories[2] = new Inventory("Ozon", "Russia", products);
         inventories[0].displayProducts();
         System.out.println();
 
