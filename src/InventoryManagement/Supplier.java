@@ -40,12 +40,3 @@ public class Supplier {
     public String getProductDetails() {
         return this.getName() + " supplies the product: " + this.getProductName();
     }
-
-    public void isOlderThan(Supplier supplier) {
-        if (this.supplierId < supplier.getSupplierId()) {
-            System.out.println(this.name + " has been in business longer than " + supplier.getName());
-        } else {
-            System.out.println(this.name + " has not been in business longer than " + supplier.getName());
-        }
-    }
-}
